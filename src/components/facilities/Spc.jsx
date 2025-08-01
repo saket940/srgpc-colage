@@ -8,7 +8,7 @@ const Spc = () => {
   const [Table, setTable] = useState([]);
   const fetchTable = async () => {
     try {
-      const response = await fetch(`http://localhost:5000/api/Table`);
+      const response = await fetch(`https://srgpc-colage.onrender.com/api/Table`);
       const data = await response.json();
   
       if (response.ok) {

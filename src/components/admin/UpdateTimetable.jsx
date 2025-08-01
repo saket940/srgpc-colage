@@ -35,7 +35,7 @@ const UpdateTimetable = () => {
 
 
   try {
-    const response = await fetch('http://localhost:5000/api/upload-timetable', {
+    const response = await fetch('https://srgpc-colage.onrender.com/api/upload-timetable', {
       method: 'POST',
       headers: {
               authorization: Cookies.get("auth")

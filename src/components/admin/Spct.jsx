@@ -146,7 +146,7 @@ const Spct = () => {
             const table=document.getElementById("spct").innerHTML
      const cookieValue = Cookies.get("auth");
               try {
-                const response = await fetch('http://localhost:5000/api/store-table', {
+                const response = await fetch('https://srgpc-colage.onrender.com/api/store-table', {
                   method: 'POST',
                   headers: {
                     'Content-Type': 'application/json'

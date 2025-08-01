@@ -22,7 +22,7 @@ const UpdateMaterials = () => {
 
   const fetchDepartments = async () => {
     try {
-      const response = await fetch('http://localhost:5000/api/department-materials')
+      const response = await fetch('https://srgpc-colage.onrender.com/api/department-materials')
       if (!response.ok) {
         throw new Error('Failed to fetch departments')
       }
@@ -56,7 +56,7 @@ const UpdateMaterials = () => {
 
     try {
       const updatedMaterials = [...materials, newMaterial]
-      const response = await fetch(`http://localhost:5000/api/department-materials/${selectedDepartment._id}`, {
+      const response = await fetch(`https://srgpc-colage.onrender.com/api/department-materials/${selectedDepartment._id}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
@@ -89,7 +89,7 @@ const UpdateMaterials = () => {
 
     try {
       const updatedMaterials = materials.filter((_, index) => index !== materialIndex)
-      const response = await fetch(`http://localhost:5000/api/department-materials/${selectedDepartment._id}`, {
+      const response = await fetch(`https://srgpc-colage.onrender.com/api/department-materials/${selectedDepartment._id}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',

@@ -30,7 +30,7 @@ const UpdateSyllabus = () => {
   formData.append('syllabus', selectedFile)
 
   try {
-    const response = await fetch('http://localhost:5000/api/upload-syllabus', {
+    const response = await fetch('https://srgpc-colage.onrender.com/api/upload-syllabus', {
       method: 'POST',
       headers: {
         Authorization: Cookies.get("auth")

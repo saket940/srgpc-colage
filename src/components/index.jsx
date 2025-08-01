@@ -8,7 +8,7 @@ export default  () => {
   React.useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('http://localhost:5000/get/681b3293e2a0f672db8f34d5');
+        const response = await fetch('https://srgpc-colage.onrender.com/get/681b3293e2a0f672db8f34d5');
         const result = await response.json();
         setData(result);
       } catch (error) {
@@ -17,7 +17,7 @@ export default  () => {
     };
     const fetchIMGData = async () => {
       try {
-        const response = await fetch('http://localhost:5000/get/681ce87762146338255866f7');
+        const response = await fetch('https://srgpc-colage.onrender.com/get/681ce87762146338255866f7');
         const result = await response.json();
         setDataIMG(result);
       } catch (error) {

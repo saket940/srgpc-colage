@@ -20,7 +20,7 @@ function App() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:5000/api/addnews', formData);
+      await axios.post('https://srgpc-colage.onrender.com/api/addnews', formData);
       alert('Content saved!');
       setFormData({ auth:Cookies.get("auth"),img: '', had: '', p: '' });
     } catch (error) {

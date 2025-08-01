@@ -16,7 +16,7 @@ app.use(bodyParser.json());
 
 // Connect to MongoDB Compass (Replace `<your_database_name>` with your actual database name)
 mongoose
-    .connect("mongodb://127.0.0.1:27017/srgp")
+    .connect(process.env.MONG)
     .then(() => console.log("MongoDB Connected"))
     .catch((err) => console.log(err));
 

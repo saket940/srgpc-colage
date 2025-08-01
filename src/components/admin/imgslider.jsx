@@ -6,7 +6,7 @@ const imgslider = () => {
       React.useEffect(() => {
         const fetchIMGData = async () => {
           try {
-            const response = await fetch('http://localhost:5000/get/681ce87762146338255866f7');
+            const response = await fetch('https://srgpc-colage.onrender.com/get/681ce87762146338255866f7');
             const result = await response.json();
         document.getElementById('fi').value=result?.first_img
         document.getElementById('si').value=result?.secande_img
@@ -41,7 +41,7 @@ const imgslider = () => {
               const ti = document.getElementById('ti').value;
               const cookieValue = Cookies.get("auth");
               try {
-                const response = await fetch('http://localhost:5000/updateIMG/681ce87762146338255866f7', {
+                const response = await fetch('https://srgpc-colage.onrender.com/updateIMG/681ce87762146338255866f7', {
                   method: 'POST',
                   headers: {
                     'Content-Type': 'application/json'

@@ -18,7 +18,7 @@ const Index = () => {
   const navigate=useNavigate();
   async function auth(token) {
     try {
-      const response = await fetch("http://localhost:5000/chack", {
+      const response = await fetch("https://srgpc-colage.onrender.com/chack", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ cock: token }),

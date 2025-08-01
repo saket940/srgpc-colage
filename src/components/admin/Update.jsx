@@ -6,7 +6,7 @@ const update = () => {
   React.useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('http://localhost:5000/get/681b3293e2a0f672db8f34d5');
+        const response = await fetch('https://srgpc-colage.onrender.com/get/681b3293e2a0f672db8f34d5');
         const result = await response.json();
         setData(result);
       } catch (error) {
@@ -41,7 +41,7 @@ const update = () => {
               const hrefText = document.getElementById('hrefInput').value;
               try {
                 const cookieValue = Cookies.get("auth");
-                const response = await fetch('http://localhost:5000/update/681b3293e2a0f672db8f34d5', {
+                const response = await fetch('https://srgpc-colage.onrender.com/update/681b3293e2a0f672db8f34d5', {
                   method: 'POST',
                   headers: {
                     'Content-Type': 'application/json'

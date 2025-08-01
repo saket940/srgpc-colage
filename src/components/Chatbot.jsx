@@ -38,7 +38,7 @@ export default Chatbot
 
 //     const handleSend = async () => {
 //         if (!input.trim()) return;
-//         const res = await axios.post("http://localhost:5000/chat", { prompt: input });
+//         const res = await axios.post("https://srgpc-colage.onrender.com/chat", { prompt: input });
 //         setResponse(res.data.response);
 //     };
 

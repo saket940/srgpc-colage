@@ -21,7 +21,7 @@ const Eventcont =(p) => {
 async function onUpdate(id, updatedData) {
   try {
 
-    await axios.put(`http://localhost:5000/api/newsup/${id}`, updatedData);
+    await axios.put(`https://srgpc-colage.onrender.com/api/newsup/${id}`, updatedData);
     alert("Content updated");
     window.location.reload();
   } catch (err) {
@@ -30,7 +30,7 @@ async function onUpdate(id, updatedData) {
 };
 const deleteChatbot = async (id) => {
     try {
-      const response = await fetch(`http://localhost:5000/api/delnews/${id}/${editData.cookieValue}`, {
+      const response = await fetch(`https://srgpc-colage.onrender.com/api/delnews/${id}/${editData.cookieValue}`, {
         method: "DELETE",
       });
   

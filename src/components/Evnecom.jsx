@@ -5,7 +5,7 @@ const Evnecom = () => {
            const fetchNews = async () => {
              try {
 
-               const response = await fetch(`http://localhost:5000/api${window.location.pathname}`);
+               const response = await fetch(`https://srgpc-colage.onrender.com/api${window.location.pathname}`);
                const data = await response.json();
            
                if (response.ok) {

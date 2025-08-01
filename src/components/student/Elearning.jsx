@@ -9,7 +9,7 @@ const Elearning = () => {
   useEffect(() => {
     const fetchDepartments = async () => {
       try {
-        const response = await fetch('http://localhost:5000/api/department-materials', {
+        const response = await fetch('https://srgpc-colage.onrender.com/api/department-materials', {
           method: 'GET',
           headers: {
             'Content-Type': 'application/json'
