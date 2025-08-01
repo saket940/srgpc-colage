@@ -28,8 +28,8 @@ import Update from './admin/Update';
 import NewsCard from './news';
 import Event from './event';
 import Newecom from './Newecom';
-
-import Evnecom from './Evnecom';
+import Eventcont from './event-cont';
+import Evnecom from './evnecom';
 import Updatenews from './admin/Updatenews';
 import Addnews from './admin/Addnews';
 import Addevent from './admin/Addevent';
