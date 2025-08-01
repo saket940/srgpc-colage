@@ -9,7 +9,7 @@ function App() {
     <div id="" className="logo">
       <h1>
         <img id="il"
-          src="/public/logo.png"
+          src="/logo.png"
           className="logo img" alt="SRGPC Logo"/>
         S. R. Government Polytechnic College, Sagar ( M.P.), India<br/>
         सहोद्रा राय शासकीय पॉलिटेक्निक महाविद्यालय, सागर(म.प्र.), भारत
@@ -30,16 +30,16 @@ function App() {
   <footer id="footer">
     <div>
       <a href="https://dte.mponline.gov.in/portal/services/onlinecounselling/counshomepage/home.aspx"><button> <img className="dte"
-            src="/public/dte.png"
+            src="/dte.png"
             alt="DTE"/></button></a>
        <a href="https://www.facebook.com/SRGPCSAGAR"><button><img id="facebook"
-            src="/public/facebook.png"
+            src="/facebook.png"
             alt="facebook"/></button></a>
       <a href="https://www.youtube.com/channel/UCxGj48z8UbXJC26y18HLwlg?app=desktop"><button> <img className="yt"
-            src="/public/yt.png"
+            src="/yt.png"
             alt="Youtube"/></button></a> 
       <a href="https://www.rgpvdiploma.in/"><button className="rgpv"> <img id="rgpv"
-            src="/public/rgpv.png"
+            src="/rgpv.png"
             alt="rgpv"/></button></a>
     </div>
     <h1>Contact Us</h1>

@@ -42,7 +42,7 @@ const Sahodra = () => {
         </div>
         <div className="sahodra-img-col">
           <img 
-            src="../public/51RwSd8B-wL.jpg"
+            src="/51RwSd8B-wL.jpg"
             alt="Freedom Fighter Mrs. Sahodrabai Rai"
           />
         </div>

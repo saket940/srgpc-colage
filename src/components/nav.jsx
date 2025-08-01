@@ -5,10 +5,10 @@ const nav = () => {
 
      
   return (  <nav id="nav">
-    <img src="../public/logo.png" alt="logo" className="il"/>
+    <img src="/logo.png" alt="logo" className="il"/>
     <h2 id="sr">S.R.G.P.C.</h2>
     <button id="navimg" onClick={()=>{const ul = document.getElementById('ul');
-    ul.classList.toggle('show');}}><img src="../public/nav.svg" alt="nav"/></button>
+    ul.classList.toggle('show');}}><img src="/nav.svg" alt="nav"/></button>
     <ul id="ul">
     <li><Link to ="/">Home</Link></li>
     <li><Link to ="/department">Department</Link></li>

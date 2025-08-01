@@ -65,7 +65,7 @@ export default  () => {
     <Link to="/department/ae">
     <div className="mb-6 cart" id="d4">
       <button>
-        <img id="i3" src="../public/photo-1511818966892-d7d671e672a2.jfif" alt="Architecture & Interior Design"/>
+        <img id="i3" src="/photo-1511818966892-d7d671e672a2.jfif" alt="Architecture & Interior Design"/>
         <h2>
           <u>Architecture & Interior Design</u>
         </h2>
@@ -76,7 +76,7 @@ export default  () => {
     <Link to="/department/cse">
     <div className="mb-6 cart">
       <button id='cse'>
-        <img id="i2" src="../public/photo-1610563166150-b34df4f3bcd6.jfif" alt="Computer Science"/>
+        <img id="i2" src="/photo-1610563166150-b34df4f3bcd6.jfif" alt="Computer Science"/>
         <h2>
           <u>Computer Science</u>
         </h2>
@@ -87,7 +87,7 @@ export default  () => {
     <Link to="/department/et">
     <div className="mb-6 cart" id="d5">
       <button>
-        <img id="i4" src="../public/photo-1518770660439-4636190af475.jfif" alt="Electronics & Telecommunication"/>
+        <img id="i4" src="/photo-1518770660439-4636190af475.jfif" alt="Electronics & Telecommunication"/>
         <h2>
           <u>Electronics & Telecommunication</u>
         </h2>
@@ -99,7 +99,7 @@ export default  () => {
     <Link to="/department/ft">
     <div className="mb-6 cart" id="d7">
       <button>
-        <img id="i6" src="../public/vitaly-gariev-9pIkaC1fjEY-unsplash.jpg" alt="Fashion Technology"/>
+        <img id="i6" src="/vitaly-gariev-9pIkaC1fjEY-unsplash.jpg" alt="Fashion Technology"/>
         <h2>
           <u>Fashion Technology</u>
         </h2>
@@ -111,7 +111,7 @@ export default  () => {
     <Link to="/department/mom">
     <div className="cart" id="d6">
       <button>
-        <img id="i5" src="../public/photo-1522071820081-009f0129c71c.jfif" alt="Modern Office Management"/>
+        <img id="i5" src="/photo-1522071820081-009f0129c71c.jfif" alt="Modern Office Management"/>
         <h2>
           <u>Modern Office Management</u>
         </h2>

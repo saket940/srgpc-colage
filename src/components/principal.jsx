@@ -37,7 +37,7 @@ const Principal = () => {
 
         <div className="sahodra-img-col" >
           <img 
-            src="../public/Y. P. Singh (1).png"
+            src="/Y. P. Singh (1).png"
             alt="Principal Dr. Y. P. Singh"
           />
         </div>
