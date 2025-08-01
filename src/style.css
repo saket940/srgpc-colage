@@ -965,6 +965,9 @@ div.show {
         max-width: 150px;
     }
 }
+.cart button img {
+    max-width: 400px;
+}
 
 @media (max-width: 700px) {
     #d3-content {
